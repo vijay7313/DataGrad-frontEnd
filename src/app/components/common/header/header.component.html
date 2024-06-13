@@ -1,0 +1,27 @@
+
+
+<mat-toolbar>
+  <!-- Show the menu button only in small screens -->
+  <button mat-icon-button *ngIf="isSmallScreen" (click)="toggleSidenav()" class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+
+  <span>DataGrad</span>
+  <span class="example-spacer"></span>
+
+  <!-- Show Contact and Address links in laptop view -->
+  <div *ngIf="!isSmallScreen" class="desktop-links">
+    <a mat-button routerLink="/contact">Contact</a>
+    <a mat-button routerLink="/address">Address</a>
+  </div>
+
+  <!-- Show Login button in both small and large screens -->
+  <button mat-raised-button (click)="onContribute()">Login</button>
+</mat-toolbar>
+
+<mat-sidenav-container *ngIf="isSmallScreen">
+  <mat-sidenav #sidenav mode="over">
+    <a mat-button routerLink="/contact">Contact</a>
+    <a mat-button routerLink="/address">Address</a>
+  </mat-sidenav>
+</mat-sidenav-container>

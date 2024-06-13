@@ -1,0 +1,20 @@
+.leftsidecarousel,
+.rightsidecarousel {
+  position: absolute;
+  height: 95.1vh; /*  viewport height */
+  width: 20vw; /*  viewport width */
+  overflow: hidden;
+}
+
+.leftsidecarousel {
+  left: 1%;
+  /* top: 10%; */
+}
+
+.rightsidecarousel {
+  right: 15%;
+  /* top: 10%; */
+}
+
+
+

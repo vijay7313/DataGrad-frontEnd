@@ -1,0 +1,34 @@
+
+<div class="bgcolor">
+  @if(!isSmallScreen) {
+  <mat-grid-list cols="2" rowHeight="100%">
+    <mat-grid-tile colspan="1">
+      <!-- Left half content goes here -->
+      <div style="position: absolute; left: 60px;">
+        <p class="my-text">Empowering Lives, Restoring Hope</p>
+        <p class="my-text1">Your Journey to Mental Wellness begins here</p>
+      </div>
+    </mat-grid-tile>
+
+      <mat-grid-tile colspan="1">
+        <!-- Right half content goes here -->
+        <div class="right-content">
+          <app-merged-carousel></app-merged-carousel>
+        </div>
+      </mat-grid-tile>
+  </mat-grid-list>
+}
+@if(isSmallScreen) {
+  <div cols="2" rowHeight="100%">
+<div colspan="1">
+  <!-- Left half content goes here -->
+  <div style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); text-align: left;  overflow: hidden;">
+    <p class="my-text">Empowering Lives, Restoring Hope</p>
+    <p class="my-text1">Your Journey to Mental Wellness begins here</p>
+  </div>
+</div>
+</div>
+}
+</div>
+
+

@@ -1,0 +1,17 @@
+.vertical-carousel {
+  height:500px; /* Set a fixed height for your carousel */
+}
+
+.carousel-item {
+  text-align: center;
+  line-height: 300px; /* Match the height of the carousel */
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+.slick-slider{
+  transform: rotate(180deg);
+  }
+  .slick-slide {
+  transform: rotate(-180deg);
+  }
+

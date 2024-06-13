@@ -1,0 +1,13 @@
+
+.vertical-carousel {
+  height: 300px; /* Set a fixed height for your carousel */
+  width: 300px;
+}
+
+.carousel-item {
+  text-align: center;
+  line-height: 300px; /* Match the height of the carousel */
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+

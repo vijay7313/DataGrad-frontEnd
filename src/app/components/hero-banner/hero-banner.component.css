@@ -1,0 +1,48 @@
+.bgcolor {
+  background-color: rgb(234, 142, 60);
+  height: 90.2vh;
+}
+
+@media screen and (max-width: 600px) {
+  .bgcolor {
+    height: 100vh; /* Adjust the height for mobile screens */
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 136px) {
+  .bgcolor {
+    height: 95.1vh; /* Adjust the height for iPad Mini screens */
+  }
+}
+
+
+
+.right-content {
+  display: flex;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.my-text {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 80px;
+  letter-spacing: 0em;
+  color: white;
+}
+.my-text1 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0D2828;
+}
+
+
+
+
+
+
